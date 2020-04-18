@@ -1,4 +1,4 @@
-spd = 40;
+spd = 15;
 len = 0;
 dir = 0;
 hspd = 0;

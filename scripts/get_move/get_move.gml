@@ -36,3 +36,12 @@ vspd = 0;
 }
 y += vspd
 #endregion
+#region
+if (hspd == 0) and (vspd == 0){
+	image_index = 0;
+	image_speed = 0;
+}else{image_speed = 1;}
+
+if (key_left){sprite_index=player_spriteL;
+	}else{sprite_index = player_sprite}
+#endregion
