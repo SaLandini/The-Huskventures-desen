@@ -3,7 +3,6 @@ script_execute(get_input())
 #region Move
 xaxis = (key_right - key_left);
 yaxis = (key_down - key_up);
-
 //Get Direction
 var dir = point_direction(0, 0, xaxis, yaxis)
 
@@ -13,6 +12,7 @@ if (xaxis == 0) and (yaxis == 0){
 }else{
     len = spd;
 }
+
 //Get speed
 hspd = lengthdir_x(len, dir);
 vspd = lengthdir_y(len, dir);
@@ -35,6 +35,7 @@ if place_meeting(x, y+vspd, WallOBJ){
 vspd = 0;
 }
 y += vspd
+
 #endregion
 #region
 if (hspd == 0) and (vspd == 0){
