@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "71d0da6c-d3a2-4033-a125-6f536b3d3a1b",
+            "Value": {
+                "id": "0b85dff7-6e25-4b57-bbfd-f3201a5e6b04",
+                "resourcePath": "sprites\\background\\background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74fe3557-44af-4a87-a02f-d3be4c1b88f3",
             "Value": {
                 "id": "7ea500a6-5dcc-4427-8c6f-6c148d2f097e",
@@ -164,6 +172,14 @@
                 "id": "49cbecc0-8c77-4714-8598-6f3c6de99a38",
                 "resourcePath": "views\\785ce1ff-536f-465f-837f-82a71d839270.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "79c9de83-cb61-4c92-8ae1-717cd8d19999",
+            "Value": {
+                "id": "73ed34a9-c9d7-4cff-bf98-d23b6d973ce6",
+                "resourcePath": "sprites\\bullet_shoot\\bullet_shoot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -235,6 +251,14 @@
             "Value": {
                 "id": "71a9274b-0aed-4694-8479-0d1d7cbf8399",
                 "resourcePath": "objects\\GunOBJ\\GunOBJ.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b64eb212-d207-4c64-832b-8aa6308f43e9",
+            "Value": {
+                "id": "568c72b9-7749-4d08-8f8f-b7aeabcf2741",
+                "resourcePath": "objects\\BulletOBJ\\BulletOBJ.yy",
                 "resourceType": "GMObject"
             }
         },
