@@ -1,13 +1,10 @@
 hp = 100;
-spd = 0.5;
-damage = 1;
+spd = 10;
+
 targetX = 0;
 targetY = 0;
-delay = 0;
 
-state = ENEMY_STATE.IDLE;
+state = ENEMY_STATE.CHASE;
 enum ENEMY_STATE{
-	IDLE,
 	CHASE,
-	ATTACK
 }
