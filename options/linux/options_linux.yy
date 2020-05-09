@@ -18,9 +18,9 @@
     "option_linux_scale": 0,
     "option_linux_short_desc": "",
     "option_linux_splash_screen": "${base_options_dir}\/linux\/splash\/splash.png",
-    "option_linux_start_fullscreen": false,
+    "option_linux_start_fullscreen": true,
     "option_linux_sync": false,
-    "option_linux_texture_page": "2048x2048",
+    "option_linux_texture_page": "8192x8192",
     "option_linux_version": {
         "build": 0,
         "major": 1,

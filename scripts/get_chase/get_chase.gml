@@ -41,3 +41,6 @@ targetYv = 0;
 y += targetYv
 
 #endregion
+if (place_meeting(x,y,PlayerOBJ)){
+	state = ENEMY_STATE.EXPLOSION
+}

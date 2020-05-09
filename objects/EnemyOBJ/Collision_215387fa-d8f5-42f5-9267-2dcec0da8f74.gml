@@ -1,6 +1,9 @@
 
 if place_meeting(x,y,BulletOBJ){
-	hp = hp - 25;
+	gatotubhp = gatotubhp - 25;
 }
 
-if (hp == 0) instance_destroy();
+if (gatotubhp == 0) {
+	instance_create_layer(x,y,"Instances",ExplosionOBJ);
+	instance_destroy();
+}
