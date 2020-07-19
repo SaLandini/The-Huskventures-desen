@@ -16,7 +16,3 @@ if (mouse_check_button(mb_left)) and (firingdelay < 0){
 		
 	}
 }
-
-if (firingdelay < 0) and (!instance_exists(Active)){
-	instance_create_layer(0,0,"Shoot",Active)
-}else if (firingdelay > 0){ instance_destroy(Active)}
